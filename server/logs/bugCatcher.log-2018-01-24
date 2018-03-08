@@ -1,0 +1,125 @@
+[2017-07-19 11:22:52.315] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '595f0069b2fc9d11bf9d7d4f' }
+[2017-07-19 11:22:52.350] [ERROR] console - (node:24866) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-07-19 11:22:52.356] [INFO] console -  ********** body ********** 
+[2017-07-19 11:22:52.357] [INFO] console - { url: 'http://172.16.1.52:8099/?ticket=83aec3300fbc4263b322521baf9fc991&user_id=621d5a145c3546e98c1762ab84e7beac&domain_id=atwork&org_id=10d71e67-3cdb-4866-b232-185e414de67c&username=18814127417&random=1500429835716',
+  type: '',
+  name: 'Error',
+  description: 'Error: 出错了！！\n    at testFn (http://172.16.1.52:8099/?ticket=83aec3300fbc4263b322521baf9fc991&user_id=621d5a145c3546e98c1762ab84e7beac&domain_id=atwork&org_id=10d71e67-3cdb-4866-b232-185e414de67c&username=18814127417&random=1500429835716:8:10)\n    at http://172.16.1.52:8099/?ticket=83aec3300fbc4263b322521baf9fc991&user_id=621d5a145c3546e98c1762ab84e7beac&domain_id=atwork&org_id=10d71e67-3cdb-4866-b232-185e414de67c&username=18814127417&random=1500429835716:9:5',
+  line: 8,
+  column: 10,
+  visitPage: 
+   { url: 'http://172.16.1.52:8099/?ticket=83aec3300fbc4263b322521baf9fc991&user_id=621d5a145c3546e98c1762ab84e7beac&domain_id=atwork&org_id=10d71e67-3cdb-4866-b232-185e414de67c&username=18814127417&random=1500429835716',
+     name: 'test',
+     time: 1500434572080 },
+  appId: '595f0069b2fc9d11bf9d7d4f',
+  stack: 
+   [ { functionName: 'testFn',
+       errLocation: 'http://172.16.1.52:8099/?ticket=83aec3300fbc4263b322521baf9fc991&user_id=621d5a145c3546e98c1762ab84e7beac&domain_id=atwork&org_id=10d71e67-3cdb-4866-b232-185e414de67c&username=18814127417&random=1500429835716:8:10' } ],
+  errText: '{}' }
+[2017-07-19 11:22:52.358] [INFO] console -  ********** body ********** 
+[2017-07-19 11:22:52.368] [INFO] console - 创建对象 { appId: '595f0069b2fc9d11bf9d7d4f',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+     browser: { name: 'Chrome', version: '59.0.3071.115', major: '59' },
+     engine: { version: '537.36', name: 'WebKit' },
+     os: { name: 'Mac OS', version: '10.12.5' },
+     device: { model: undefined, vendor: undefined, type: undefined },
+     cpu: { architecture: undefined } },
+  type: 'Chrome$59',
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-07-19 11:23:36.162] [INFO] console - Express server listening on :8090, in development mode
+[2017-07-19 11:23:36.178] [INFO] console - mongo连接成功
+[2017-07-19 11:23:36.185] [INFO] console - mongo连接打开
+[2017-07-19 11:23:43.740] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '595f0069b2fc9d11bf9d7d4f' }
+[2017-07-19 11:23:43.773] [ERROR] console - (node:24894) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-07-19 11:23:43.785] [INFO] console - 创建对象 { appId: '595f0069b2fc9d11bf9d7d4f',
+  url: 'http://172.16.1.52:8099/?ticket=83aec3300fbc4263b322521baf9fc991&user_id=621d5a145c3546e98c1762ab84e7beac&domain_id=atwork&org_id=10d71e67-3cdb-4866-b232-185e414de67c&username=18814127417&random=1500429835716',
+  type: 'Chrome$59',
+  name: 'Error',
+  description: 'Error: 出错了！！\n    at testFn (http://172.16.1.52:8099/?ticket=83aec3300fbc4263b322521baf9fc991&user_id=621d5a145c3546e98c1762ab84e7beac&domain_id=atwork&org_id=10d71e67-3cdb-4866-b232-185e414de67c&username=18814127417&random=1500429835716:8:10)\n    at http://172.16.1.52:8099/?ticket=83aec3300fbc4263b322521baf9fc991&user_id=621d5a145c3546e98c1762ab84e7beac&domain_id=atwork&org_id=10d71e67-3cdb-4866-b232-185e414de67c&username=18814127417&random=1500429835716:9:5',
+  line: 8,
+  column: 10,
+  visitPage: 
+   { url: 'http://172.16.1.52:8099/?ticket=83aec3300fbc4263b322521baf9fc991&user_id=621d5a145c3546e98c1762ab84e7beac&domain_id=atwork&org_id=10d71e67-3cdb-4866-b232-185e414de67c&username=18814127417&random=1500429835716',
+     name: 'test',
+     time: 1500434623543 },
+  stack: 
+   [ { functionName: 'testFn',
+       errLocation: 'http://172.16.1.52:8099/?ticket=83aec3300fbc4263b322521baf9fc991&user_id=621d5a145c3546e98c1762ab84e7beac&domain_id=atwork&org_id=10d71e67-3cdb-4866-b232-185e414de67c&username=18814127417&random=1500429835716:8:10' } ],
+  errText: '{}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+     browser: { name: 'Chrome', version: '59.0.3071.115', major: '59' },
+     engine: { version: '537.36', name: 'WebKit' },
+     os: { name: 'Mac OS', version: '10.12.5' },
+     device: { model: undefined, vendor: undefined, type: undefined },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-07-19 11:24:59.551] [INFO] console - Express server listening on :8090, in development mode
+[2017-07-19 11:24:59.574] [INFO] console - mongo连接成功
+[2017-07-19 11:24:59.583] [INFO] console - mongo连接打开
+[2017-07-19 11:25:01.699] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '595f0069b2fc9d11bf9d7d4f' }
+[2017-07-19 11:25:01.731] [ERROR] console - (node:24913) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-07-19 11:25:01.748] [INFO] console - 创建对象 { appId: '595f0069b2fc9d11bf9d7d4f',
+  url: 'http://172.16.1.52:8099/?ticket=83aec3300fbc4263b322521baf9fc991&user_id=621d5a145c3546e98c1762ab84e7beac&domain_id=atwork&org_id=10d71e67-3cdb-4866-b232-185e414de67c&username=18814127417&random=1500429835716',
+  type: 'Chrome$59',
+  name: 'Error',
+  description: 'Error: 出错了！！\n    at testFn (http://172.16.1.52:8099/?ticket=83aec3300fbc4263b322521baf9fc991&user_id=621d5a145c3546e98c1762ab84e7beac&domain_id=atwork&org_id=10d71e67-3cdb-4866-b232-185e414de67c&username=18814127417&random=1500429835716:8:10)\n    at http://172.16.1.52:8099/?ticket=83aec3300fbc4263b322521baf9fc991&user_id=621d5a145c3546e98c1762ab84e7beac&domain_id=atwork&org_id=10d71e67-3cdb-4866-b232-185e414de67c&username=18814127417&random=1500429835716:9:5',
+  line: 8,
+  column: 10,
+  visitPage: 
+   { url: 'http://172.16.1.52:8099/?ticket=83aec3300fbc4263b322521baf9fc991&user_id=621d5a145c3546e98c1762ab84e7beac&domain_id=atwork&org_id=10d71e67-3cdb-4866-b232-185e414de67c&username=18814127417&random=1500429835716',
+     name: 'test',
+     time: 1500434701490 },
+  stack: 
+   [ { functionName: 'testFn',
+       errLocation: 'http://172.16.1.52:8099/?ticket=83aec3300fbc4263b322521baf9fc991&user_id=621d5a145c3546e98c1762ab84e7beac&domain_id=atwork&org_id=10d71e67-3cdb-4866-b232-185e414de67c&username=18814127417&random=1500429835716:8:10' } ],
+  errText: '{}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+     browser: { name: 'Chrome', version: '59.0.3071.115', major: '59' },
+     engine: { version: '537.36', name: 'WebKit' },
+     os: { name: 'Mac OS', version: '10.12.5' },
+     device: { model: undefined, vendor: undefined, type: undefined },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-07-19 11:25:11.925] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '595f0069b2fc9d11bf9d7d4f' }
+[2017-07-19 11:25:11.928] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById],
+  _id: '596ed10d6312f361510363d3',
+  appId: '595f0069b2fc9d11bf9d7d4f' }

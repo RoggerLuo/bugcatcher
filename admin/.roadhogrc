@@ -1,0 +1,25 @@
+{
+  "entry": "src/index.js",
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr",
+        "transform-runtime",
+        ["import", { "libraryName": "antd", "style": "css" }]
+      ]
+    },
+    "production": {
+      "extraBabelPlugins": [
+        "transform-runtime",
+        ["import", { "libraryName": "antd", "style": "css" }]
+      ]
+    }
+  },
+  "proxy": {
+    "/api": {
+      "target": "http://172.16.1.178:8787/",
+      "changeOrigin": true,
+      "pathRewrite": {"^/api" : ""}
+    }
+  }
+}

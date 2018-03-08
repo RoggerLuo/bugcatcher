@@ -1,0 +1,23 @@
+.height100{
+    height: 100%;
+}
+.lineGap{
+    height: 3px;
+    width:1px;
+}
+.smallGap{
+    height: 10px;
+    width:1px;
+}
+.middleGap{
+    height: 20px;
+    width:1px;
+}
+.largeGap{
+    height: 50px;
+    width:1px;
+
+}
+.appBackground{
+    background-color:  #f5f5f5 !important;
+}

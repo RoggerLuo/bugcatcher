@@ -1,0 +1,126 @@
+.chart {
+    width: 100%;
+    height: 340px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+
+.appTitleRow {
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+    color: black;
+}
+
+.rowHover:hover {
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.4);
+    transition: box-shadow .3s ease-in-out;
+}
+
+.alignCenter{
+    text-align: center;
+}
+
+.bugNumber{
+    composes: alignCenter;
+    color:red;
+    font-size: 16px;
+}
+.appItem {
+    height: 70px;
+    line-height: 70px;
+    background-color: white;
+    composes: rowHover;
+    cursor: pointer;
+    color: black;
+}
+
+.colorRed {
+    color: red;
+}
+
+.addNewAPP {
+    // color:#108ee9;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.addNewAPP:hover {
+    color: #108ee9;
+}
+
+button.dashedButton {
+    border-color: white;
+}
+
+.dashedButton:hover {
+    border-color: #108ee9;
+}
+
+.dashedButton:active {
+    background-color: #108ee9;
+    color: white;
+    border-color: white;
+}
+
+.menuButton {
+    cursor: pointer;
+    line-height: 30px;
+    padding-right: 20px;
+}
+
+.menuButton:hover {
+    color: #108ee9;
+}
+
+.appKeyOuter {
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.appKeyTextContainer {
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    padding: 20px;
+    line-height: 10px;
+    color: black;
+}
+
+.clickToCopy {
+    color: #108ee9;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+}
+
+.appKeyContent {
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.appKeyContentSuccess {
+    font-size: 22px;
+    text-align: center;
+    line-height: 40px;
+    color: #1da653;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.successPNG {
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.appKeyButtonContainer {
+    padding-top: 30px;
+    text-align: center;
+}
