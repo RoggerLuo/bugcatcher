@@ -21,7 +21,7 @@ const AppKeyModal = ({visible,dispatch,appKey,showSuccessWord}) => {
         success = (<div className={s.appKeyContentSuccess}><img src={successPNG} className={s.successPNG}/>应用创建成功</div>)
     }
 
-    const script = `<script type="text/javascript" src="`+ protocol_and_host +`/catcher.js?key=`+ appKey +`"></script>`
+    const script = `<script src="http://${window.location.host}/catcher.js?key=${appKey}"></script>`
     return (
         <Modal
           width="850px"

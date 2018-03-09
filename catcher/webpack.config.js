@@ -15,7 +15,7 @@ var config = {
   },
   output: {
     path: 'dist',
-    filename: 'catcher.js'
+    filename: 'bug_catcher.js'
   },
   module: {
     loaders: [
