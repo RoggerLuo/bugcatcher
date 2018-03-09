@@ -7,3 +7,8 @@
 .cascaderURL{
     width: 300px;
 }
+
+.descriptionText{
+    font-size: 14px;
+    line-height: 2.5;
+}

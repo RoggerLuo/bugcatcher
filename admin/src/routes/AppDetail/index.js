@@ -16,8 +16,9 @@ function AppDetail({dispatch,appDetail,location,title}) {
         const messageTransferred = (
             <div>
                 {
-                    contentArr.map((el,index)=>(<div key={index} style={{paddingBottom:'5px'}}>{el}</div>))
+                    contentArr.slice(0,1).map((el,index)=>(<div key={index} style={{paddingBottom:'5px'}}>{el}</div>))
                 }
+                {contentArr.length>1?(<div>...... </div>):null}
             </div>
         )//data.message && data.message.replace(/\n/g,"<br/>")||''
 

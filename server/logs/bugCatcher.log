@@ -1,0 +1,855 @@
+[2018-03-09 09:53:18.965] [INFO] console - Express server listening on :8787, in development mode
+[2018-03-09 09:53:19.014] [INFO] console - mongo连接成功
+[2018-03-09 09:53:19.025] [INFO] console - mongo连接打开
+[2018-03-09 09:56:20.533] [INFO] console - Express server listening on :8787, in development mode
+[2018-03-09 09:56:20.560] [INFO] console - mongo连接成功
+[2018-03-09 09:56:20.569] [INFO] console - mongo连接打开
+[2018-03-09 09:57:15.104] [INFO] console - Express server listening on :8787, in development mode
+[2018-03-09 09:57:15.130] [INFO] console - mongo连接成功
+[2018-03-09 09:57:15.139] [INFO] console - mongo连接打开
+[2018-03-09 09:57:54.432] [INFO] console - ******** getResFn error ******** 
+[2018-03-09 09:57:54.435] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/apps/account_app.js:43:23
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/apps/account_app.js:40:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2018-03-09 09:57:54.467] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/apps/account_app.js:43:23
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/apps/account_app.js:40:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/apps/account_app.js:43:23\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/apps/account_app.js:40:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2018-03-09 09:58:06.322] [INFO] console - ******** getResFn error ******** 
+[2018-03-09 09:58:06.323] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/apps/account_app.js:43:23
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/apps/account_app.js:40:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2018-03-09 09:58:06.330] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/apps/account_app.js:43:23
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/apps/account_app.js:40:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/apps/account_app.js:43:23\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/apps/account_app.js:40:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/old_Proj/bug-catcher/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2018-03-09 09:58:11.854] [INFO] console - 查询条件是 { mobile: '123' }
+[2018-03-09 09:58:11.895] [ERROR] console - (node:36386) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2018-03-09 09:58:12.128] [INFO] console - 查询条件是 { account: '5aa0f40a950fb674fa73b163' }
+[2018-03-09 09:58:12.182] [INFO] console - 查询条件是 { appId: 5aa0f41d950fb674fa73b164,
+  createDate: 
+   { '$lte': 2018-03-09T09:58:12.000Z,
+     '$gte': 2018-03-08T09:58:12.000Z } }
+[2018-03-09 09:58:13.763] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 09:58:13.766] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 09:58:13.772] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 09:58:13.772] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 09:58:13.773] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 09:58:13.773] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 09:58:13.774] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 09:58:13.778] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 09:58:13.779] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 09:58:13.781] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 09:58:13.782] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 09:58:13.782] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 09:58:15.934] [INFO] console - 查询条件是 { account: '5aa0f40a950fb674fa73b163' }
+[2018-03-09 09:58:15.940] [INFO] console - 查询条件是 { appId: 5aa0f41d950fb674fa73b164,
+  createDate: 
+   { '$lte': 2018-03-09T09:58:15.000Z,
+     '$gte': 2018-03-08T09:58:15.000Z } }
+[2018-03-09 10:01:28.821] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:01:28.838] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:01:28.873] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:01:28.873] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:01:28.875] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:01:28.876] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:01:28.892] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:01:28.899] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:01:28.899] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:01:28.900] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:01:28.903] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:01:28.904] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:01:34.734] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:01:34.737] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:01:34.744] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:01:34.745] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:01:34.745] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:01:34.746] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:01:34.746] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:01:34.749] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:01:34.750] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:01:34.751] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:01:34.751] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:01:34.752] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:02:29.510] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:02:29.528] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:02:29.532] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:02:29.532] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:02:29.533] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:02:29.539] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:02:29.539] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:02:29.543] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:02:29.544] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:02:29.544] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:02:29.545] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:02:29.545] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:02:38.379] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:02:38.401] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:02:38.402] [INFO] console - { appId: '5aa0f41d950fb674fa73b164',
+  from: '2018-03-09',
+  to: '2018-03-10' }
+[2018-03-09 10:02:38.433] [INFO] console - 2018-03-09T00:00:00.000Z 2018-03-10T00:00:00.000Z
+[2018-03-09 10:02:38.434] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164',
+  createDate: 
+   { '$lte': 2018-03-10T00:00:00.000Z,
+     '$gte': 2018-03-09T00:00:00.000Z } }
+[2018-03-09 10:02:38.448] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:02:38.448] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164',
+  createDate: 
+   { '$lte': 2018-03-10T00:00:00.000Z,
+     '$gte': 2018-03-09T00:00:00.000Z } }
+[2018-03-09 10:02:41.429] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:02:41.432] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:02:41.434] [INFO] console - { appId: '5aa0f41d950fb674fa73b164',
+  from: '2018-03-01',
+  to: '2018-03-10' }
+[2018-03-09 10:02:41.436] [INFO] console - 2018-03-01T00:00:00.000Z 2018-03-10T00:00:00.000Z
+[2018-03-09 10:02:41.436] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164',
+  createDate: 
+   { '$lte': 2018-03-10T00:00:00.000Z,
+     '$gte': 2018-03-01T00:00:00.000Z } }
+[2018-03-09 10:02:41.436] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:02:41.436] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164',
+  createDate: 
+   { '$lte': 2018-03-10T00:00:00.000Z,
+     '$gte': 2018-03-01T00:00:00.000Z } }
+[2018-03-09 10:03:05.075] [INFO] console - Express server listening on :8787, in development mode
+[2018-03-09 10:03:05.112] [INFO] console - mongo连接成功
+[2018-03-09 10:03:05.129] [INFO] console - mongo连接打开
+[2018-03-09 10:06:03.855] [INFO] console - Express server listening on :8787, in development mode
+[2018-03-09 10:06:03.880] [INFO] console - mongo连接成功
+[2018-03-09 10:06:03.890] [INFO] console - mongo连接打开
+[2018-03-09 10:06:08.970] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:06:09.027] [ERROR] console - (node:36653) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2018-03-09 10:06:09.082] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:06:09.084] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:06:09.084] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:06:09.085] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:06:09.085] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:06:09.107] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:06:09.125] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:06:09.125] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:06:09.126] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:06:09.126] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:06:09.127] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:07:46.552] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:07:46.580] [INFO] console - 创建对象 { appId: '5aa0f41d950fb674fa73b164',
+  message: 'Script error.',
+  name: '',
+  stack: [],
+  script: '',
+  line: 0,
+  column: 0,
+  userAgent: 
+   { ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+     browser: { name: 'Chrome', version: '64.0.3282.186', major: '64' },
+     engine: { version: '537.36', name: 'WebKit' },
+     os: { name: 'Mac OS', version: '10.12.5' },
+     device: { model: undefined, vendor: undefined, type: undefined },
+     cpu: { architecture: undefined } },
+  type: 'Chrome$64',
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2018-03-09 10:07:55.346] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:07:55.350] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:07:55.353] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:07:55.353] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:07:55.355] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:07:55.357] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:07:55.357] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:07:55.366] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:07:55.367] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:07:55.368] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:07:55.371] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:07:55.371] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:08:14.152] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:08:14.160] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:08:14.160] [INFO] console - { appId: '5aa0f41d950fb674fa73b164',
+  from: '2018-03-01',
+  to: '2018-03-10' }
+[2018-03-09 10:08:14.162] [INFO] console - 2018-03-01T00:00:00.000Z 2018-03-10T00:00:00.000Z
+[2018-03-09 10:08:14.163] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164',
+  createDate: 
+   { '$lte': 2018-03-10T00:00:00.000Z,
+     '$gte': 2018-03-01T00:00:00.000Z } }
+[2018-03-09 10:08:14.163] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:08:14.164] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164',
+  createDate: 
+   { '$lte': 2018-03-10T00:00:00.000Z,
+     '$gte': 2018-03-01T00:00:00.000Z } }
+[2018-03-09 10:10:44.181] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:10:44.200] [INFO] console - 创建对象 { appId: '5aa0f41d950fb674fa73b164',
+  url: 'file:///Users/RogersMac/Sites/test.html',
+  type: 'Chrome$64',
+  name: 'ReferenceError',
+  description: 'ReferenceError: a is not defined\n    at file:///Users/RogersMac/Sites/test.html:27:14',
+  line: 27,
+  column: 14,
+  visitPage: 
+   { url: 'file:///Users/RogersMac/Sites/test.html',
+     name: 'React Starter Kit',
+     time: 1520561444110 },
+  stack: 
+   [ { functionName: '',
+       errLocation: 'file:///Users/RogersMac/Sites/test.html:27:14' } ],
+  errText: '{}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+     browser: { name: 'Chrome', version: '64.0.3282.186', major: '64' },
+     engine: { version: '537.36', name: 'WebKit' },
+     os: { name: 'Mac OS', version: '10.12.5' },
+     device: { model: undefined, vendor: undefined, type: undefined },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2018-03-09 10:11:05.462] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:11:05.467] [INFO] console - 创建对象 { appId: '5aa0f41d950fb674fa73b164',
+  url: 'file:///Users/RogersMac/Sites/test.html',
+  type: 'Chrome$64',
+  name: 'ReferenceError',
+  description: 'ReferenceError: a is not defined\n    at file:///Users/RogersMac/Sites/test.html:27:14',
+  line: 27,
+  column: 14,
+  visitPage: 
+   { url: 'file:///Users/RogersMac/Sites/test.html',
+     name: 'React Starter Kit',
+     time: 1520561465439 },
+  stack: 
+   [ { functionName: '',
+       errLocation: 'file:///Users/RogersMac/Sites/test.html:27:14' } ],
+  errText: '{}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+     browser: { name: 'Chrome', version: '64.0.3282.186', major: '64' },
+     engine: { version: '537.36', name: 'WebKit' },
+     os: { name: 'Mac OS', version: '10.12.5' },
+     device: { model: undefined, vendor: undefined, type: undefined },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2018-03-09 10:12:21.039] [INFO] console - 查询条件是 { account: '5aa0f40a950fb674fa73b163' }
+[2018-03-09 10:12:21.102] [INFO] console - 查询条件是 { appId: 5aa0f41d950fb674fa73b164,
+  createDate: 
+   { '$lte': 2018-03-09T10:12:21.000Z,
+     '$gte': 2018-03-08T10:12:21.000Z } }
+[2018-03-09 10:12:21.903] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:12:21.908] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:12:21.909] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:12:21.911] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:12:21.911] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:12:21.912] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:12:21.915] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:12:21.925] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:12:21.925] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:12:21.926] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:12:21.926] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:12:21.926] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:13:06.354] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:13:06.372] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:13:06.373] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:13:06.373] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:13:06.376] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:13:06.376] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:13:06.382] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:13:06.410] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:13:06.412] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:13:06.413] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:13:06.413] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:13:06.421] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:14:15.790] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:14:15.810] [INFO] console - 创建对象 { appId: '5aa0f41d950fb674fa73b164',
+  message: 'Script error.',
+  name: '',
+  stack: [],
+  script: '',
+  line: 0,
+  column: 0,
+  userAgent: 
+   { ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+     browser: { name: 'Chrome', version: '64.0.3282.186', major: '64' },
+     engine: { version: '537.36', name: 'WebKit' },
+     os: { name: 'Mac OS', version: '10.12.5' },
+     device: { model: undefined, vendor: undefined, type: undefined },
+     cpu: { architecture: undefined } },
+  type: 'Chrome$64',
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2018-03-09 10:14:20.330] [INFO] console - 查询条件是 { account: '5aa0f40a950fb674fa73b163' }
+[2018-03-09 10:14:20.336] [INFO] console - 查询条件是 { appId: 5aa0f41d950fb674fa73b164,
+  createDate: 
+   { '$lte': 2018-03-09T10:14:20.000Z,
+     '$gte': 2018-03-08T10:14:20.000Z } }
+[2018-03-09 10:14:21.085] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:14:21.096] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:14:21.096] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:14:21.097] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:14:21.098] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:14:21.098] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:14:21.117] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:14:21.125] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:14:21.125] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:14:21.126] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:14:21.129] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:14:21.129] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:14:29.854] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:14:29.856] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:14:29.856] [INFO] console - { appId: '5aa0f41d950fb674fa73b164',
+  from: '2018-03-01',
+  to: '2018-03-10' }
+[2018-03-09 10:14:29.858] [INFO] console - 2018-03-01T00:00:00.000Z 2018-03-10T00:00:00.000Z
+[2018-03-09 10:14:29.859] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164',
+  createDate: 
+   { '$lte': 2018-03-10T00:00:00.000Z,
+     '$gte': 2018-03-01T00:00:00.000Z } }
+[2018-03-09 10:14:29.859] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:14:29.859] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164',
+  createDate: 
+   { '$lte': 2018-03-10T00:00:00.000Z,
+     '$gte': 2018-03-01T00:00:00.000Z } }
+[2018-03-09 10:16:30.130] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:16:30.160] [INFO] console - 创建对象 { appId: '5aa0f41d950fb674fa73b164',
+  message: 'Script error.',
+  name: '',
+  stack: [],
+  script: '',
+  line: 0,
+  column: 0,
+  userAgent: 
+   { ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+     browser: { name: 'Chrome', version: '64.0.3282.186', major: '64' },
+     engine: { version: '537.36', name: 'WebKit' },
+     os: { name: 'Mac OS', version: '10.12.5' },
+     device: { model: undefined, vendor: undefined, type: undefined },
+     cpu: { architecture: undefined } },
+  type: 'Chrome$64',
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2018-03-09 10:31:20.318] [INFO] console - 查询条件是 { account: '5aa0f40a950fb674fa73b163' }
+[2018-03-09 10:31:20.337] [INFO] console - 查询条件是 { appId: 5aa0f41d950fb674fa73b164,
+  createDate: 
+   { '$lte': 2018-03-09T10:31:20.000Z,
+     '$gte': 2018-03-08T10:31:20.000Z } }
+[2018-03-09 10:31:20.872] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:31:20.885] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:31:20.888] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:31:20.888] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:31:20.889] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:31:20.889] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:31:20.889] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:31:20.895] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:31:20.895] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:31:20.896] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:31:20.896] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:31:20.898] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:31:31.667] [INFO] console - 查询条件是 { account: '5aa0f40a950fb674fa73b163' }
+[2018-03-09 10:31:31.672] [INFO] console - 查询条件是 { appId: 5aa0f41d950fb674fa73b164,
+  createDate: 
+   { '$lte': 2018-03-09T10:31:31.000Z,
+     '$gte': 2018-03-08T10:31:31.000Z } }
+[2018-03-09 10:31:32.506] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:31:32.520] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:31:32.521] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:31:32.521] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:31:32.522] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:31:32.522] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:31:32.555] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:31:32.562] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:31:32.563] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:31:32.563] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:31:32.563] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:31:32.564] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:40:29.114] [INFO] console - 查询条件是 { account: '5aa0f40a950fb674fa73b163' }
+[2018-03-09 10:40:29.129] [INFO] console - 查询条件是 { appId: 5aa0f41d950fb674fa73b164,
+  createDate: 
+   { '$lte': 2018-03-09T10:40:29.000Z,
+     '$gte': 2018-03-08T10:40:29.000Z } }
+[2018-03-09 10:40:29.799] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:40:29.802] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:40:29.804] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:40:29.805] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:40:29.805] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:40:29.806] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:40:29.807] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:40:29.813] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:40:29.813] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:40:29.821] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:40:29.861] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 10:40:29.863] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:46:44.733] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 10:46:44.798] [INFO] console - 创建对象 { appId: '5aa0f41d950fb674fa73b164',
+  url: 'http://172.16.1.178/~RogersMac/webapp/editor-app/dist/bundle.js',
+  type: 'Chrome$64',
+  name: 'ReferenceError',
+  description: 'ReferenceError: a is not defined\n    at exports.default (http://172.16.1.178/~RogersMac/webapp/editor-app/dist/bundle.js:21946:18)\n    at Object.saveModel (http://172.16.1.178/~RogersMac/webapp/editor-app/dist/bundle.js:21815:37)\n    at save (http://172.16.1.178/~RogersMac/webapp/editor-app/dist/bundle.js:40796:24)\n    at HTMLUnknownElement.<anonymous> (http://172.16.1.178/~RogersMac/webapp/editor-app/libs/prototype-1.5.1.js:105:21)\n    at Object.ReactErrorUtils.invokeGuardedCallback (http://172.16.1.178/~RogersMac/webapp/editor-app/dist/bundle.js:13974:17)\n    at executeDispatch (http://172.16.1.178/~RogersMac/webapp/editor-app/dist/bundle.js:13504:22)\n    at Object.executeDispatchesInOrder (http://172.16.1.178/~RogersMac/webapp/editor-app/dist/bundle.js:13527:6)\n    at executeDispatchesAndRelease (http://172.16.1.178/~RogersMac/webapp/editor-app/dist/bundle.js:10112:23)\n    at executeDispatchesAndReleaseTopLevel (http://172.16.1.178/~RogersMac/webapp/editor-app/dist/bundle.js:10123:11)\n    at Array.forEach (<anonymous>)',
+  line: 21946,
+  column: 18,
+  visitPage: 
+   { url: 'http://172.16.1.178/~RogersMac/webapp/modeler.html?orgId=11265&token=a7e4285514f5422ea5369b5485bcceab&pid=Pro_8928694c6b1440539c6e0d7b95b9604c&rootOrgId=11265&option=common&version=undefined&versionId=1042598',
+     name: '*流程设计',
+     time: 1520563604517 },
+  stack: 
+   [ { functionName: 'exports.default',
+       errLocation: 'http://172.16.1.178/~RogersMac/webapp/editor-app/dist/bundle.js:21946:18' } ],
+  errText: '{}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+     browser: { name: 'Chrome', version: '64.0.3282.186', major: '64' },
+     engine: { version: '537.36', name: 'WebKit' },
+     os: { name: 'Mac OS', version: '10.12.5' },
+     device: { model: undefined, vendor: undefined, type: undefined },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2018-03-09 11:01:17.106] [INFO] console - 查询条件是 { account: '5aa0f40a950fb674fa73b163' }
+[2018-03-09 11:01:17.152] [INFO] console - 查询条件是 { appId: 5aa0f41d950fb674fa73b164,
+  createDate: 
+   { '$lte': 2018-03-09T11:01:17.000Z,
+     '$gte': 2018-03-08T11:01:17.000Z } }
+[2018-03-09 11:01:17.844] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:01:17.851] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:01:17.854] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:01:17.855] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:01:17.855] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:01:17.855] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:01:17.856] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:01:17.858] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:01:17.858] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:01:17.858] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:01:17.859] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:01:17.859] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:09:00.729] [INFO] console - 查询条件是 { account: '5aa0f40a950fb674fa73b163' }
+[2018-03-09 11:09:00.759] [INFO] console - 查询条件是 { appId: 5aa0f41d950fb674fa73b164,
+  createDate: 
+   { '$lte': 2018-03-09T11:09:00.000Z,
+     '$gte': 2018-03-08T11:09:00.000Z } }
+[2018-03-09 11:09:07.027] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:09:07.032] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:09:07.050] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:09:07.050] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:09:07.050] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:09:07.051] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:09:07.051] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:09:07.052] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:09:07.052] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:09:07.052] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:09:07.053] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:09:07.053] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:14:30.573] [INFO] console - 查询条件是 { account: '5aa0f40a950fb674fa73b163' }
+[2018-03-09 11:14:30.589] [INFO] console - 查询条件是 { appId: 5aa0f41d950fb674fa73b164,
+  createDate: 
+   { '$lte': 2018-03-09T11:14:30.000Z,
+     '$gte': 2018-03-08T11:14:30.000Z } }
+[2018-03-09 11:14:31.371] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:14:31.379] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:14:31.379] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:14:31.380] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:14:31.380] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:14:31.380] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:14:31.384] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:14:31.456] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:14:31.457] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:14:31.458] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:14:31.459] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:14:31.460] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:14:43.441] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:14:43.459] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:14:43.502] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:14:43.516] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:14:43.517] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:14:43.517] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:14:43.518] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:14:43.520] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:14:43.520] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:14:43.521] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:14:43.521] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:14:43.522] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:34:00.110] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:34:00.118] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:34:00.122] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:34:00.123] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:34:00.123] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:34:00.123] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:34:00.124] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:34:00.126] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:34:00.126] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:34:00.126] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:34:00.127] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:34:00.127] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:34:24.484] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:34:24.496] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:34:24.500] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:34:24.500] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:34:24.500] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:34:24.501] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:34:24.501] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:34:24.507] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:34:24.509] [INFO] console - { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:34:24.509] [INFO] console - condition { appId: '5aa0f41d950fb674fa73b164' }
+[2018-03-09 11:34:24.510] [INFO] console -  ********** getQueryCondition ********** 
+[2018-03-09 11:34:24.510] [INFO] console - 查询条件是 { appId: '5aa0f41d950fb674fa73b164' }

@@ -1,6 +1,6 @@
 import { Modal, Button, Table } from 'antd';
 import { connect } from 'dva';
-
+import s from './AppDetail.css'
 
 const DetailModal = ({ visible, dispatch, data }) => {
     const cancel = () => {
@@ -126,6 +126,7 @@ const DetailModal = ({ visible, dispatch, data }) => {
               bordered
               size="middle"
               pagination={false}
+              rowClassName={()=>s.descriptionText}
           />
           <Table
               columns={columnsErrorInfo2}
@@ -146,7 +147,7 @@ const DetailModal = ({ visible, dispatch, data }) => {
 }
 
 function mapStateToProps(state) {
-    return {data:state.appDetail.modalData};
+    return { data:state.appDetail.modalData }
 }
 
 export default connect(mapStateToProps)(DetailModal);

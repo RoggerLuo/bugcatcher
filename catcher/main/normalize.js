@@ -37,7 +37,7 @@ module.exports = {
     errObj.column = column || err.column || err.columnNumber || lineAddr.column || '';
     errObj.url = scriptURI || err.script || err.fileName || err.sourceURL || lineAddr.script || '';
     errObj.errText = this.stringifyText(err);
-    errObj.visitPage.url = window.top.location.href;
+    errObj.visitPage.url = window.location.href; //window.top.location.href; 这样在iframe里面会报错
     errObj.visitPage.name = document.title;
     errObj.visitPage.time = new Date().getTime();
     return errObj;
